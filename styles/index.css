@@ -94,6 +94,8 @@ p {
   text-align: center;
   color: grey;
   font-size: large;
+  align-items: center;
+  margin-top: 3rem;
 }
 
 .summary {
