@@ -22,7 +22,7 @@
         Max Suleimanov, Pavilion (Reference Image)
     </div>
 
-    <div class="week1">Weekly Project Updates: week 1, January 19-26</div>
+    <div class="week1">Weekly Project Updates: week 1-2, January 19-26</div>
 
 
     <div class="ref"> 
@@ -35,7 +35,7 @@
 
 
         
-        <div class="week1">Weekly Project Updates: week 2, January 26 - February 2 </div>
+        <div class="week1">Weekly Project Updates: week 2-3, January 26 - February 2 </div>
 
         <div class="ref"> 
             <img src="images/Screenshot 2024-02-02 215821.png">
@@ -51,9 +51,35 @@
         <div class="summary"> Throughout this week, I dedicated my efforts to crafting the cliff model that would serve as the centerpiece for the main waterfall. To achieve this, I merged various models from Megascans, seamlessly blending them to construct the terrain. I remeshed it and integrated it into Houdini, where it assumed the crucial role of simulating collisions for the main waterfall.In addition to this, I also worked on the collisions for the two smaller waterfalls. Guided by valuable input from my mentor, I embraced the innovative idea of using trim sheets to texture repeating materials across the mesh.  I am eagerly looking forward to incorporating these trim sheets into my work in the coming week.
 
         </div>
+        <div class="week1">Weekly Project Updates: week 3-4, February 2 - February 9 </div>
+        
+        <div class="summary">This week, I've been working on creating the trimsheet for texturing purposes. To develop the trimsheet, I had to first block in the sections I want to create. Each section represents different materials that I will use to texture each model. I've organized four sections for four different materials, specifically two for marble textures—one with more cracks than the other—and two for gold textures, with one of the gold sections featuring more rust and damage than the other. I've already sculpted the two marble models, and my plan is to also sculpt the gold sections. Once I finish sculpting all the sections, the next step is to bake the 3D model into a 2D image. This image will then be sent to either Substance Painter or Photoshop to add the base color. This detailed process ensures that the trimsheet becomes a crucial element in enhancing the overall aesthetics and realism of the final 3D models.</div>
 
-  
+          <div class="group"> 
+            <img src="images/gold-marble.png">
+            <img src="images/Screenshot 2024-02-09 161356.png">
+        </div>
+        
+        <div class="ref"> Most recent update for week 3-4, the Left is the Reference Image and the Right is the 3D model</div>
 
+        <div class="summary"> Next, I exported my cliff into Houdini to serve as the collision for my waterfall. Once imported, I converted it into a VDB (Voxel Data Base). After the conversion, I could seamlessly integrate it into my simulation to influence the particles. Creating the simulation was relatively straightforward for me due to my experience with water FX. I added an emitter and incorporated a noise displacement that animated over time. Utilizing the shelf tools available in Houdini, I laid the groundwork for the simulation. I introduced velocity, rest, and noise to enhance realism. Additionally, I implemented kill areas to prompt particle deletion upon contact with those designated regions. Upon completion, my mentor acknowledged the quality of my simulation. However, he recommended adding more elements to break up the waterfall further.</div>
+
+        <div class="group"> 
+            <img src="images/houdini_sim (1).png">
+            <img src="images/houdini_collision(2).png">
+
+        </div>
+        
+        <div class="ref"> Right: Simulation Setup, Left: Collison and Kill boxes Setup</div>
+
+        <div class="ref"> 
+            <video width="1080" height="500
+            " controls>
+                <source src="images/MPlay - ip-18_36__ 2024-02-08 19-05-01.mp4" type="video/mp4"> 
+            </video>
+            </div>
+
+            <div class="ref">Waterfall Simulation</div>
  </div>
 
 
