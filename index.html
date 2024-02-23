@@ -102,6 +102,8 @@
                 <div class="ref"> 
                     <img src="images/trim_sheet_low_DefaultMaterial_BaseColor.png">
                 </div>
+                <div class="week1">Weekly Project Updates: week 4-5, February 16 - February 23 </div>
+
 
                 <div class="summary">Shifting my focus to the simulation aspect, I made subtle adjustments to the flip fluid, particularly fine-tuning the particle separation and voxel scale. At present, I am in the process of caching the simulation at a lower resolution (particle separation: 0.06) to better understand the visual dynamics of the waterfall. This preliminary step allows me to make informed decisions before committing to a high-resolution simulation (particle separation: 0.03). Following my mentor's advice, I am cautious in caching only a few frames initially to ensure a smooth import of the simulation from Houdini into Unreal. Looking ahead to my 50% milestone, my overarching goal is to present a concise yet impactful snippet of my waterfall within the Unreal environment. Additionally, I aim to have completed the texturing for the majority of my scene, marking a significant achievement in the overall development of the project.</div>
 
@@ -109,6 +111,20 @@
                     <img src="images/waterfall_002.png">
                 </div>
 
+                <div class="summary">
+                    This week, my primary focus was on the integration of the environment I meticulously crafted in Blender into Unreal Engine. My mentor suggested that I revisit my trimsheet, prompting me to defer the addition of materials to my meshes until the trimsheet is refined. I undertook the task of grouping various components of my models together and subsequently importing them into Unreal Engine. However, I encountered a challenge where certain meshes appeared translucent, necessitating attention in the near future to rectify this issue.
+
+Additionally, I successfully imported the Megascans assets of cliffs and rocks from Bridge into Unreal Engine. To ensure alignment with my reference, I meticulously set up a camera to match the desired perspective.
+
+The waterfall posed the most intricate challenges, particularly in the realms of caching and importing. The caching process proved time-consuming, requiring several hours to complete the simulation with a particle separation of 0.03. To expedite the simulation, I adjusted the particle separation to 0.06. The entire caching procedure, encompassing both particles and surfaces, consumed approximately 8 hours. Subsequently, my plan was to cache the simulation into an Alembic file for seamless transfer to Unreal Engine. However, a limitation arose, as I realized I could only execute this process on the school's computer due to the Apprentice version limitations on my personal system.
+
+In light of this obstacle, I opted for an alternative approach to create the waterfall effect. I applied a waterfall texture to a plane and orchestrated an animation loop, simulating the movement of the texture downward to convey the illusion of a cascading waterfall. Despite this workaround, the result appeared somewhat flat and lacked realism. Consequently, I am determined to persist with the original plan of using Houdini for creating the waterfall, recognizing its superior potential for achieving a more lifelike representation.  </div>
+
+
+<video width="1080" height="500
+            " controls>
+                <source src="videos/new_one.m4v" type="video/mp4"> 
+            </video>
 
  </div>
 
