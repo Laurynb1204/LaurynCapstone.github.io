@@ -120,11 +120,26 @@ The waterfall posed the most intricate challenges, particularly in the realms of
 
 In light of this obstacle, I opted for an alternative approach to create the waterfall effect. I applied a waterfall texture to a plane and orchestrated an animation loop, simulating the movement of the texture downward to convey the illusion of a cascading waterfall. Despite this workaround, the result appeared somewhat flat and lacked realism. Consequently, I am determined to persist with the original plan of using Houdini for creating the waterfall, recognizing its superior potential for achieving a more lifelike representation.  </div>
 
-
+ 
 <video width="1080" height="500
             " controls>
                 <source src="videos/new_one.m4v" type="video/mp4"> 
             </video>
+
+
+            
+            <div class="week1">Weekly Project Updates: week 4-5, February 23 - March 1 </div>
+
+
+            <div class="summary"> This week, I dedicated a significant portion of my time to the intricate process of exporting my waterfall into Unreal Engine. After careful consideration, I settled on a final particle separation value of 0.065, deeming it the most optimized choice for a seamless import. Breaking down the waterfall into two components, I specifically cached the water mesh as an Alembic file. The initial file size exceeded 32 gigabytes, presenting a challenge that required meticulous optimization.
+
+                To tackle the size issue, I diligently removed unnecessary attributes and fine-tuned the adaptivity settings in my particle fluid surface. This strategic approach significantly reduced the file size to a more manageable 16 gigabytes, meeting my requirements. Upon successful import into Unreal, a process that took approximately 10 minutes, I integrated a water material. Upon pressing play, the waterfall ran relatively smoothly, although I noted some minor glitches that will require attention in subsequent refinements.
+                
+                Shifting my focus to the whitewater aspect, my plan involved caching particles in Houdini using the Niagara particle cache. However, this phase encountered several hurdles. The cached file size initially surpassed Unreal's limitations, prompting a meticulous reduction by deleting extraneous attributes. Despite this, I encountered another challenge during the integration of the Niagara file into Unreal. The necessity for a plugin added an extra layer of complexity, exacerbated by compatibility issues with the Unreal version (5.2.1) I was using. Eventually, after experimenting with different plugins, I found a suitable match, allowing successful integration. Yet, a persisting issue emerged – the particles failed to display in Unreal, a dilemma I am actively troubleshooting.
+                
+                Simultaneously, amidst the waterfall development, I am concurrently refining my textures and trimsheet. This dual focus aims to ensure comprehensive progress across all elements of the project, fostering a cohesive and polished outcome by the end of the week. </div>
+            
+            
 
  </div>
 
