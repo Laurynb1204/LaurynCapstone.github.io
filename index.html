@@ -139,8 +139,33 @@ In light of this obstacle, I opted for an alternative approach to create the wat
                 
                 Simultaneously, amidst the waterfall development, I am concurrently refining my textures and trimsheet. This dual focus aims to ensure comprehensive progress across all elements of the project, fostering a cohesive and polished outcome by the end of the week. </div>
             
-            
+                <div class="week1">Weekly Project Updates: week 6-7, March 1 - March 8 </div>
 
+               
+                <div class="summary">
+                    
+This week, I continued my journey of figuring out how to export my whitewater into Unreal, which has been very challenging for me. I re-cached my flip fluid surface, remeshed each frame of the surface, and lowered the poly count to ensure that the Alembic file was much smaller than it was previously. I also added a color ramp to the mesh, with the color ramp being affected by the vorticity of the mesh. The goal is to use this as a mask, allowing me to apply a whitewater material in Unreal to the parts that are not affected. However, when I did this, the velocity mask wasn't showing.
+
+Furthermore, I was fortunate to acquire another mentor named Victor Reguera, a VFX artist who utilizes Houdini and Unreal for his projects. During our discussion about my capstone, he demonstrated how he created a river in Houdini and the method he used to generate the mask for the whitewater material. He also reviewed the whitewater I created in Houdini and expressed his appreciation for it. He suggested converting the whitewater particles into spheres using a "copy to points" node because Unreal struggles with importing particles from other software. This involves caching the converted particles as another Alembic file and applying a translucent white material in Unreal. Additionally, I reached out to Michael Gyck for a Houdini license, and hopefully, in a few days, I will obtain the Education license to enable exporting various files on my computer.
+
+In addition to these technical challenges, I continued working on creating my trimsheet. I decided to use Substance Designer instead of Blender due to the procedural aspect of the application, a choice that my mentor approved of for the same reason. I plan to finish it this coming week, with the ultimate goal of creating two trimsheets for my environment. So far, the process has been relatively straightforward.
+                </div>
+
+                <div class="ref"> 
+                    <img src="images/trim_sheet.png">
+                </div>
+                <div class="ref"> trimsheet</div>
+                <div class="ref"> 
+                    <img src="images/trimsheet nodes.png">
+                </div>
+                <div class="ref"> trimsheet nodes </div>
+                <div class="ref"> 
+                    <img src="images/Vortcity.png">
+                </div>
+                <div class="ref"> vorticity visualization </div>
+
+                
+ 
  </div>
 
 
