@@ -204,6 +204,7 @@ In addition to these technical challenges, I continued working on creating my tr
                         Upon importing these meticulously crafted elements into Unreal Engine, I was gratified to witness their seamless integration. Though most objects seamlessly assimilated into the scene, a few necessitated minor adjustments for optimal cohesion. Presently, my focus is honed on refining the placement of roof tiles, a task facilitated by the development of a bespoke toolset for precise manipulation. Looking forward, I am determined to complete the roof tiles, elevate the realism of the waterfall material, and meticulously fine-tune the lighting to elevate the scene's immersive quality.
                     </div>
 
+
                     <div class="ref"> 
                         <img src="images/stone.png">
                     </div>
@@ -213,6 +214,17 @@ In addition to these technical challenges, I continued working on creating my tr
                     <div class="ref"> 
                         <img src="images/gizbo (2).png">
                     </div>
+
+                    <div class="week1">Weekly Project Updates: week 13-15 , April 5 - April 27</div>
+                    <div>
+                        
+For the past three weeks, I have been doing my due diligence on this project. The first thing I did was update my big waterfall. I wanted to add layering to it to make it fuller and have the rock show less. I created three waterfalls, each with different velocities. I increased the particle separation to add more particles and give it more volume and surface. Each waterfall was remeshed to a low poly count to better suit being exported to Unreal. I also slightly increased the opacity for my material. When I did test renders, I realized there were some weird artifacts in my renders that looked like black cubes. After doing some research, I realized it was because of the bloom settings causing the artifacts. After disabling it, I had no more problems with rendering. I also redid my roof for the structures. I decided to add more details to each tile by adding cracks to some of the tiles and adding dirt and foliage. I added small particles to the waterfall. I created these particles with Unreal's built-in Niagara particle system. I also added noise to the particles so that each particle moved differently. Furthermore, I made all the foliage simulate being blown in the wind. It was pretty simple; the effect is built into Unreal. Now, onto the lighting. I wanted to use Unreal's real-time render engine Lumen. I used a sunset HDRI to light up the scene instead of the default sky box that Unreal provides. The results were fine, but I still need to do some tweaking. Moreover, I also did some test rendering with Unreal's path tracing, which is similar to ray tracing but a bit more efficient. When the final render is done, I will do some color grading in Premiere Pro.
+                    </div>
+
+                    <video width="1080" height="500
+                    " controls>
+                        <source src="videos/Waterfall_final.m4v" type="video/mp4"> 
+                    </video>
                 </div>
 
  </div>
